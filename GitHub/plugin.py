@@ -36,8 +36,8 @@ import supybot.callbacks as callbacks
 import json
 
 class GitHub(callbacks.Plugin):
-    """Add the help for "@plugin help GitHub" here
-    This should describe *how* to use this plugin."""
+    """Adapts portions of the GitHub REST API v2 (http://develop.github.com/) 
+    for IRC."""
     threaded = True
 
     def issues(self, irc, msg, args, opts, label, repo, user):

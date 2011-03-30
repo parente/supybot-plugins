@@ -29,7 +29,7 @@
 ###
 
 """
-Adapts the GitHub REST API v2 (http://develop.github.com/) for IRC. 
+Adapts portions of the GitHub REST API v2 (http://develop.github.com/) for IRC. 
 """
 
 import supybot
@@ -40,7 +40,7 @@ import supybot.world as world
 __version__ = "1.0"
 
 # XXX Replace this with an appropriate author or supybot.Author instance.
-__author__ = supybot.authors.unknown
+__author__ = supybot.Author('Peter Parente', 'parente', 'parente@cs.unc.edu')
 
 # This is a dictionary mapping supybot.Author instances to lists of
 # contributions.
